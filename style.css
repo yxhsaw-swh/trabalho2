@@ -216,7 +216,10 @@ input, select {
     transition: 0.3s;
 }
 
-input:focus { border-color: #804a8d; outline: none; box-shadow: 0 0 3px rgba(0,74,141,0.1); 
+input:focus, select:focus { 
+    border-color: #804a8d; 
+    outline: none; 
+    box-shadow: 0 0 3px rgba(0,74,141,0.1); 
 }
 
 .btn-save {
