@@ -37,8 +37,12 @@
         </div>
 
         <div class="form-actions">
-            <button> type="submit" class</button>
-        </div>
+    <button type="submit" class="btn-save">
+        <i class="fa-solid fa-floppy-disk"></i> Finalizar Cadastro
+    </button>
+    
+    <a href="index.php" class="btn-cancel">Cancelar</a>
+</div>
     </form>
     </section>
 </body>
